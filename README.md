@@ -10,16 +10,7 @@ By applying **Genetic Algorithms (GA)** and **Walk-Forward Analysis**, the proje
 ## Repository Structure
 - **`/SQX_Models`**: Includes the native `.sqx` files. These files contain the full strategy logic and optimized parameters, ready to be loaded into **StrategyQuant X**.
 - **`/Data`**: Sample of the historical data (2009-2018) utilized during the 60/30 day Walk-Forward optimization cycles.
-- **`/Results`**: Documentation of the 6 distinct optimized models, including performance reports, equity curves, and Sharpe ratio comparisons.
-
-## Key Findings
-- **Market Adaptation:** The Genetic Algorithm systematically rejected hard stop-losses in the U.S. MidCap market, identifying them as detrimental due to high intraday noise.
-- **Alpha Generation:** Risk-adjusted performance is significantly enhanced through proactive profit conservation (RDD) rather than simple loss-cutting.
-
-## Technical Requirements
-To run or inspect the strategy files, you will need:
-- **StrategyQuant X** (for the `.sqx` files).
-- A PDF reader to view the performance reports.
+- **`/Other languages`**: You can download the strategy code for MetaTrader 4, 5 and in java code, as well as a simple pseudocode.
 
 ## Author
 **Jorge Moncada Gutiérrez** Bachelor in Economics and Finance  
